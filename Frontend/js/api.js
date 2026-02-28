@@ -3,7 +3,7 @@
 // In development (localhost), it falls back to localhost:5000.
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://localhost:5000/api'
-    : 'https://YOUR-APP-NAME.onrender.com/api';
+    : 'https://hospital-management-system-ygzd.onrender.com/api';
 
 // Get token from localStorage
 const getToken = () => localStorage.getItem('token');
