@@ -161,7 +161,7 @@ Create a `.env` file inside the `Backend/` folder:
 ```env
 NODE_ENV=development
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/hospital_management
+MONGODB_URI=YOUR_MONGOURI_HERE
 JWT_SECRET=your_super_secret_key_here
 JWT_EXPIRE=7d
 CORS_ORIGIN=http://localhost:5500
